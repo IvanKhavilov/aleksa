@@ -1,19 +1,18 @@
-const wrapper = document.querySelector('.page__video')
-const playButton = document.querySelector('.play-button')
-const previewImage = wrapper.querySelector('img')
+// const wrapper = document.querySelector('.page__video')
+// const playButton = document.querySelector('.play-button')
+// const previewImage = wrapper.querySelector('img')
 
-// Добавление клика на кнопку
-playButton.addEventListener('click', () => {
-  // Заменяем содержимое div'а на iframe с видео
-  wrapper.innerHTML = `
-            <iframe width="630" height="337" 
-                    src="https://www.youtube.com/embed/UtZFmfL4hts?autoplay=1" 
-                    title="YouTube video player" frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    style="width: 100%; border-radius: 10px;" allowfullscreen>
-            </iframe>
-        `
-})
+// // Добавление клика на кнопку
+// playButton.addEventListener('click', () => {
+//   // Заменяем содержимое div'а на iframe с видео
+//   wrapper.innerHTML = `
+//             <iframe width="560" height="315"
+//               src="https://www.youtube.com/embed/42ilIgXhbjE?si=T82dTFe7y2IOPvG4"
+//               title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+//               referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+//             </iframe>
+//         `
+// })
 
 function showModal() {
   const modal = document.getElementById('successModal')
