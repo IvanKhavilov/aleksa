@@ -216,23 +216,9 @@ body {
     left: 0;
     width: 129px;
     height: 228px;
-    background-image: url(../images/decor.webp);
+    background-image: url(../images/decor.png);
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  .page__top::after {
-    width: 225px;
-    height: 325px;
-  }
-  .page__top::before {
-    width: 360px;
-    height: 240px;
-    right: 13px;
-    top: 83px;
-  }
-  .page__title {
-    max-width: 265px;
-    margin-bottom: 90px;
   }
   .page__video-text {
     margin-bottom: 50px;
